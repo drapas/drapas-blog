@@ -1,0 +1,123 @@
+BODY {
+	background-color:#FFF;
+	color:#000;
+	font:100% Arial,sans-serif;
+	margin:0;
+	padding:2em 0;
+	}
+H2 {
+	font-size:110%;
+	margin-bottom:0.7em;
+	}
+UL, LI {
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
+INPUT[type="text"],
+TEXTAREA {
+	border:solid 1px #AAA;
+	}
+INPUT[type="submit"] {
+	background-color:#FFF;
+	border:1px solid #AAA;
+	color:#000;
+	display:block;
+	font-weight:bold;
+	padding:4px 7px;
+	}
+DIV.wrapper {
+	background-color:#EEE;
+	margin:0 auto;
+	overflow:hidden;
+	padding:40px 10px 40px 70px;
+	width:900px;
+	zoom:1;
+	}
+A.button {
+	background-color:#FFF;
+	border:1px solid #AAA;
+	color:#000;
+	display:block;
+	font-weight:bold;
+	padding:4px 7px;
+	text-decoration:none;
+	}
+	
+.error {
+	color:#F00;
+	}
+.fl-l {
+	float:left;
+	}
+.fl-r {
+	float:right;
+	}
+.hidden {
+	display:none;
+	}
+.clear::after {
+	clear:both;
+	content:".";
+	display:block;
+	height:0px;
+	overflow:hidden;
+	visibility:hidden;
+	}
+/*	menu
+---------------------------------------------------------*/
+UL.main-menu {
+	height:45px;
+	}
+	UL.main-menu LI {
+		float:left;
+		margin-right:0.5em;
+		}
+	
+/*	Posts
+---------------------------------------------------------*/
+LI.content-block {
+	background-color:#DDD;
+	margin-bottom:0.8em;
+	padding:1em;
+	}
+	LI.content-block DIV {
+		margin-bottom:0.7em;
+		}
+	LI.content-block DIV.date {
+		font-size:80%;
+		}
+DIV.detail-block {
+	background-color:#DDD;
+	margin-bottom:0.8em;
+	padding:1em;
+	}
+	DIV.detail-block DIV {
+		margin-bottom:0.7em;
+		}
+	DIV.detail-block DIV.date {
+		font-size:80%;
+		}
+/*	Edit Post
+---------------------------------------------------------*/
+DIV.detail-block {
+	padding-left:40px;
+	}
+INPUT.edit-title-input,
+INPUT.edit-tags-input {
+	width:200px;
+	}
+TEXTAREA.edit-text-input,
+TEXTAREA.edit-dtext-input {
+	height:300px;
+	width:500px;
+	}
+DIV.edit-block A {
+	margin-right:10px;
+	}
+/*	comments
+---------------------------------------------------------*/
+DIV.comments-block LI {
+	list-style-type:decimal;
+	margin-bottom:15px;
+	}
